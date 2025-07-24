@@ -1,8 +1,13 @@
 # AlphaZero Snake Game
 
+> https://alpha-zero-snake.vercel.app/ 에서 직접 게임을 플레이하여 데이터를 생성하거나,<br/>
+> https://github.com/Gitae-business/AlphaZeroSnake_FE 에서 어떻게 저장되는지 확인할 수 있습니다.
+
+<br/>
 <p align="center">
   <img src="public/snake.gif" alt="스네이크" width="400" style="display: block; margin: 0 auto 16px auto;" />
 </p>
+
 이 프로젝트는 AlphaZero 알고리즘을 Snake 게임에 적용해, 데이터가 없는 상태에서도 명확한 규칙을 바탕으로 데이터를 생성하고 학습하는 과정을 체험하기 위해 진행되었습니다.
 
 AlphaZero는 바둑, 체스처럼 규칙이 정의된 환경에서 자가 학습으로 최적의 전략을 찾는 강화학습 알고리즘으로, MCTS(Monte Carlo Tree Search)를 활용하여 다음 행동을 탐색하고, 정책과 가치 네트워크를 동시에 학습합니다.
