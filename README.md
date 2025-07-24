@@ -1,7 +1,8 @@
 # AlphaZero Snake Game
 
-
-<img src="public/snake.gif" alt="스네이크" width="400" style="display: block; margin: 0 auto 16px auto;" />
+<p align="center">
+  <img src="public/snake.gif" alt="스네이크" width="400" style="display: block; margin: 0 auto 16px auto;" />
+</p>
 이 프로젝트는 AlphaZero 알고리즘을 Snake 게임에 적용해, 데이터가 없는 상태에서도 명확한 규칙을 바탕으로 데이터를 생성하고 학습하는 과정을 체험하기 위해 진행되었습니다.
 
 AlphaZero는 바둑, 체스처럼 규칙이 정의된 환경에서 자가 학습으로 최적의 전략을 찾는 강화학습 알고리즘으로, MCTS(Monte Carlo Tree Search)를 활용하여 다음 행동을 탐색하고, 정책과 가치 네트워크를 동시에 학습합니다.
@@ -63,15 +64,17 @@ AlphaZero는 바둑, 체스처럼 규칙이 정의된 환경에서 자가 학습
 ---
 
 ## 결과
-<div style="display: flex; justify-content: center; gap: 8px; margin-bottom: 8px;">
-  <img src="public/game_value_5.gif" alt="데이터 트렌드" width="250" />
-  <img src="public/game_value_16.gif" alt="스네이크" width="250" />
-</div>
+<p align="center">
+  <img src="public/game_value_5.gif" alt="데이터 트렌드" width="400" />
+  <img src="public/game_value_16.gif" alt="스네이크" width="400" />
+</p>
 
 학습이 진행됨에 따라 뱀의 움직임이 무작위에서 점차 효율적인 경로 탐색과 먹이 습득 전략으로 개선되는 모습을 확인할 수 있습니다.
 초기에는 벽이나 자기 몸에 자주 부딪히지만, 수백 번의 셀프 플레이 후에는 보다 안정적으로 생존하며 길이를 늘리는 행동을 보입니다.
 <br/>
-<img src="public/data_trend.gif" alt="데이터 트렌드" width="400" style="display: block; margin: 0 auto 0 auto;" />
+<p align="center">
+  <img src="public/data_trend.gif" alt="데이터 트렌드" width="400" style="display: block; margin: 0 auto 0 auto;" />
+</p>
 데이터도 더욱 안정적으로 생성되는 것을 확인할 수 있습니다. 학습이 진행될수록 더 높은 value의 데이터를 생성하도록 개선되어 나가는 것을 아래 그래프로 확인할 수 있습니다.
 
 ---
